@@ -1,0 +1,15 @@
+site_name: Hello MKDOCS!!!
+
+nav:
+  - Home: index.md
+  - Diags: diagrams.md
+  - About: about.md
+
+theme: material
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
